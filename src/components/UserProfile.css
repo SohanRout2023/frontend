@@ -1,0 +1,46 @@
+.user-profile-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.user-profile-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-profile-search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.user-profile-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-profile-table th, .user-profile-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-profile-table th {
+  background-color: #f4f4f4;
+}
+
+.user-profile-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+}

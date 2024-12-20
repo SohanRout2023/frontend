@@ -1,0 +1,55 @@
+/* Home.css */
+
+.home-container {
+    padding: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .todos-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .todos-table th,
+  .todos-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .todos-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .todos-table tr {
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .todos-table tr.match {
+    background-color: #d3f8d3;
+    transform: translateY(-10px); /* Slight upward translation for focus */
+  }
+  
+  /* Smooth animation for row highlighting */
+  .todos-table tr.match:hover {
+    background-color: #a0e89e;
+    transform: translateY(0); /* Reset transform on hover */
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+  }
+  

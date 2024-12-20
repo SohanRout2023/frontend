@@ -1,0 +1,106 @@
+/* Container for the comment section */
+.comments-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fefefe;
+  }
+  
+  /* Heading styles for comments section */
+  .comments-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid #e74c3c;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  /* Loading and error messages */
+  .loading,
+  .error {
+    font-size: 20px;
+    color: #34495e;
+    margin: 20px 0;
+  }
+  
+  /* Table styling for comments */
+  .comments-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Roboto", Arial, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table header styling */
+  .comments-table th {
+    background-color: #2980b9;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Table cell styling */
+  .comments-table td {
+    font-size: 16px;
+    color: #2c3e50;
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  /* Alternating row colors for readability */
+  .comments-table tr:nth-child(even) {
+    background-color: #ecf0f1;
+  }
+  
+  .comments-table tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  /* Hover effect for table rows */
+  .comments-table tr:hover {
+    background-color: #dcdde1;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Responsive design for mobile devices */
+  @media (max-width: 768px) {
+    .comments-container {
+      padding: 10px;
+    }
+  
+    .comments-heading {
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+  
+    .comments-table th,
+    .comments-table td {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  /* Focused table cells for small screens */
+  @media (max-width: 576px) {
+    .comments-table th,
+    .comments-table td {
+      font-size: 12px;
+      padding: 8px;
+    }
+  
+    .comments-heading {
+      font-size: 20px;
+    }
+  }
+  
